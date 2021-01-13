@@ -10,8 +10,8 @@ class Solution:
         for i in s:
             if s.isalnum() is True:
                 strings.append(i)
-
-        while len(strings) >= 2:
+        # 덱의 제일 앞과 뒤가 같은지 비교
+        while len(strings) > 1: # 제일 앞과 뒤를 비교할 것이기 때문에 한개가 남으면 빠져나감
             if strings.popleft() != strings.pop():
                 return False
         return True

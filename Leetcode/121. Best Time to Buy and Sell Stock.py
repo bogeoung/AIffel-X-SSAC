@@ -12,6 +12,3 @@ def maxProfit(List):
             result = 0
         else: result = max - min
         return result
-
-def main():
-    maxProfit([7,1,5,3,6,4])
