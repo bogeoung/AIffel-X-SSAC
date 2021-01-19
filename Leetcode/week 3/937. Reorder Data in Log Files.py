@@ -15,3 +15,8 @@ class Solution:
 
 sol = Solution()
 sol.reorderLogFiles(["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"])
+
+list = [1,2,3,4]
+list.sort()
+print(list)
+print(list.sort())

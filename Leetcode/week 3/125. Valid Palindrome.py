@@ -18,3 +18,5 @@ class Solution:
 
 test = Solution()
 print(test.isPalindrome("race is a car"))
+
+print('fundamentals,exploration,goingdeeper'.split(','))
