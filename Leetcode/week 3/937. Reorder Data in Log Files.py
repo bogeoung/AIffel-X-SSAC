@@ -28,7 +28,8 @@ class Solution:
 sol = Solution()
 print(sol.reorderLogFiles(["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]))
 
-'''원래 풀이
+'''
+원래 풀이
         digit = []
         letter = []
         for i in logs: #이거 왜 while문으로 하면 에러??
