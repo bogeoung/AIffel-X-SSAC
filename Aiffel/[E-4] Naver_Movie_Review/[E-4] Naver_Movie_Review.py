@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import re
 from konlpy.tag import Okt
 from tensorflow import keras
-from tensorflow.keras.preprocessing.text import Tokenizer
+#from tensorflow.keras.preprocessing.text import Tokenizer
 import numpy as np
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+#from tensorflow.keras.preprocessing.sequence import pad_sequences
 from collections import Counter
 from konlpy.tag import Mecab
 
